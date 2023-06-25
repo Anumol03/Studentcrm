@@ -1,0 +1,38 @@
+list all students
+===================================
+url:http://127.0.0.1:8000/api/students/
+method:get
+body:Null
+headers:Null
+
+
+student detail
+===================
+url:http://127.0.0.1:8000/api/students/{id}/
+method:get
+body:Null
+headers:Null
+
+
+student create
+=================
+url:http://127.0.0.1:8000/api/students/
+method:post
+body:{"name":"anumol","course":"cse","email":"anumol030101@gmail.com","address":"kalliot","contact":9526701403,"gender":"female"}
+headers:Null
+
+
+student updation
+====================
+url:http://127.0.0.1:8000/api/students/{id}/
+method:put
+body:{"name":"anumol","course":"cse","email":"anumol030101@gmail.com","address":"kalliot","contact":9526701403,"gender":"female"}
+headers:Null
+
+
+student delete
+==================
+url:http://127.0.0.1:8000/api/students/{id}/
+method:delete
+body:Null
+headers:Null
